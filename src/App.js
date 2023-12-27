@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+//import './Apps.css';
+//import { useState } from 'react';
 import React from 'react';
 import SignInForm from './signinpage';
+//import BackgroundImage from "./background/abstract-blue-background-simple-design-for-your-website-free-vector.jpg";
 
 function App() {
+
   return (
-    <div className='App'><SignInForm /></div>
+    
+    <div className='App'>
+    <div className="App-header background-container"></div>
+      <div className='signInContent'>
+        <div className='label'>
+        <div className='emailInput'></div>
+        <div className='passwordInput'></div>
+          <SignInForm />
+      </div>
+     </div>
+    </div>
   );
 }
-
-//function NewButton() {
-//const [count, setCount] = useState(0);
-
-//function handleClick() {
-  //setCount(count + 1);
-////}
- // return (
- //   <button onClick={handleClick}> I can count see {count} </button>
- // );
-//}
 
 
 export default App;

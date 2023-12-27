@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 
 
-
 const SignInForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -18,8 +17,7 @@ const SignInForm = () => {
 
 const handleSubmit = (e) => {
   e.preventDefault();
-  //added authetication logic for sending credentials to a server
-  //console.log('Email:', email, 'Password:', password);
+  
 };
 
 return(
@@ -44,29 +42,4 @@ return(
 };
 
 export default SignInForm;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
