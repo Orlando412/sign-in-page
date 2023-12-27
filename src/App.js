@@ -14,9 +14,9 @@ function App() {
     <div className="App-header background-container"></div>
       <div className='signInContent'>
         <div className='label'>
-        <div className='emailInput'></div>
-        <div className='passwordInput'></div>
-          <SignInForm />
+        <div className='signInForm'>
+        <SignInForm />
+        </div>
       </div>
      </div>
     </div>
